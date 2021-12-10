@@ -5,7 +5,7 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/public/index.html");
 });
 
-app.post("/public/index.html", function(req, res){
+app.post("/", function(req, res){
     res.send("hello world!");
 });
 
